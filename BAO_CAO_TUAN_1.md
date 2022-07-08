@@ -17,11 +17,13 @@
     ![alt text](https://dronenodes.com/wp-content/uploads/2018/12/drone-frame-carbon-fiber.png)
     <br>
     *Hình 1: Thiết kế khung có ngăn chứa các thành phần cần thiết*
+    <br>
     - Khí động học đóng một vai trò quan trọng trong thiết kế. Mục đích là để giảm lực cản của môi trường và giảm tác động của quạt lên khung trong quá trình tạo lực đẩy bay lên.
+    
     - Các yếu tố cần phải xem xét khi lựa chọn khung:
-        - ***Độ bền:*** Việc bắt đầu chắc chắn sẽ va chạm khá nhiều. Chính vì vậy cần một khung có độ bền cao để có thể tiếp tục bay sau va chạm và bảo vệ các thiết bị điện tử nằm trong.
-        - ***Không gian chứa:*** Để có thể có không gian lắp đặt các thiết bị và lấy các thiết bị ra khi cần sửa chữa hoặc thiết lập
-        - ***Giá đỡ máy ảnh (Optional):*** theo dõi hoặc xử lý hình ảnh để Drone tự đưa ra quyết định
+        - ***Độ bền:*** Việc bắt đầu chắc chắn sẽ va chạm khá nhiều. Chính vì vậy cần một khung có độ bền cao để có thể tiếp tục bay sau va chạm và bảo vệ các thiết bị điện tử nằm trong. <br>
+        - ***Không gian chứa:*** Để có thể có không gian lắp đặt các thiết bị và lấy các thiết bị ra khi cần sửa chữa hoặc thiết lập <br>
+        - ***Giá đỡ máy ảnh (Optional):*** theo dõi hoặc xử lý hình ảnh để Drone tự đưa ra quyết định <br>
 
 - **Cánh quạt:**
     - Bộ phận quan trọng của Drone. Chúng biến chuyển động quay của động cơ thành lực nâng. Có rất nhiều loại cánh quạt khác nhau cho mỗi loại Drone khác nhau
