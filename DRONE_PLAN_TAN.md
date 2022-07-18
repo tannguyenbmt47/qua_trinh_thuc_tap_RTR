@@ -46,4 +46,5 @@
 - **Tuần 5 (1/8-5/8)**
     - Cách sử dụng các chương trình mô phỏng 
 
-    -**Kết quả:** chương trình mô phỏng với Copter
+    -**Kết quả:** bản báo cáo
+    
