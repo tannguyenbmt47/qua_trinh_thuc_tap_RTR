@@ -60,7 +60,7 @@
     Gồm 3 dây đen kết nối với động cơ
 
 - **Lập trình**
-  - File code:
+  - File code: code_mpu/BLDC_control.ino
   - Sử dụng thư viện "MPU9250.h" và "Servo.h"
   - Trong hàm setup, sử dụng cổng Serial với baudrate là 9600. Khai báo chân phát xung là D8 và khởi tạo kết nối I2C với cảm biến. Cũng trong hàm setup, phát 1 xung với độ rộng 1000ms để ESC biết đâu là mức độ ga thấp nhất. Delay 5s để ESC tự test và chuẩn bị sẵn sàng.
   - Trong hàm loop, sử dụng hàm getRoll() có sẵn để đọc góc Roll trả về từ Mpu sau mỗi 25ms. Chuyển đổi giá trị đo được từ mpu từ -90 đến 90 về thang đo 1000 đến 2000 để đưa vào hàm writeMicroseconds() phát xung cho ESC.
