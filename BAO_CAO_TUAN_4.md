@@ -77,19 +77,28 @@
     - Xảy ra khi mà một thiết bị phát ra sóng vô tuyến cùng tần số với sóng của GNSS. Điều này khiến cho các thiết bị sử dụng GNSS không thể xác định được vị trí và ngăn cản chúng khỏi việc thiết lập hay duy trì kết nối.
 
 ![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHFRhQtqfSJVlsa7eUU5VBM2_YzZJ2KH9eontFMIkPgxxr7tpOjjei9d30qpSd7MUYV_Q&usqp=CAU)
+
 <br>
+
   - ***Giả sóng (Spoofing):***
     -  là một hình thức tấn công nguy hiểm hơn, bao gồm việc cố tình bắt chước hình thức truyền từ vệ tinh GPS, lừa người nhận tin rằng thông tin đã được gửi như mong đợi. 
        -  Giả sóng dạng cơ bản nhất đó là việc gửi thông tin hoàn toàn sai lệch tới bộ thu (ví dụ như nó cho biết vị trí con tàu đang chạy ở trên đất liền). Thông thường việc làm giả này chỉ nhắm tới mục tiêu hơn là làm nhiễu một môi trường lớn xung quanh
        -  Một hình thức giả mạo GPS thậm chí còn phức tạp và tinh vi hơn, liên quan đến việc chiếm quyền điều khiển hệ thống GPS bằng cách ban đầu gửi cho bộ thu thông tin vị trí chính xác và sau đó thay đổi rất chậm các thông tin được gửi về, chẳng hạn, kéo tàu đi chệch hướng vào vùng biển thù địch.
-![alt text](https://www.researchgate.net/profile/Ebrahim-Shafiee/publication/352935771/figure/fig3/AS:994607743651849@1614144373417/A-GPS-spoofing-scenario-Spoofer-tries-to-deviate-UAV-from-the-main-trajectory.png) 
+![alt text](https://www.researchgate.net/profile/Ebrahim-Shafiee/publication/352935771/figure/fig3/AS:994607743651849@1614144373417/A-GPS-spoofing-scenario-Spoofer-tries-to-deviate-UAV-from-the-main-trajectory.png)
+
 <br>
+
 #### Các phương pháp chống phá sóng và giả sóng của một số bộ thu GNSS
+
   - ***Đối với phá sóng (nhiễu sóng):***
-    - **Bộ lọc nằm ở trong bộ thu:** chính là phòng tuyến đầu tiên khi tín hiệu đến được máy thu, lọc được càng nhiều nhiễu càng tốt. Điều này khá là hiệu quả đối với những tín hiệu nằm ngoài dải băng tần, hoặc chính là những tín hiệu không nằm trong các tần số GNSS mà ta quan tâm. Tuy nhiên, đối với tín hiệu nhiệu nằm trong dải băng tần thì nó vẫn có thể lấn át bộ thu.
-    - **Hỗ trợ bộ thu với IMU:** IMU thì sẽ không bị nhiễu bởi các tín hiệu vô tuyến. Nó cung cấp các giải pháp điều hướng thực tế tránh việc phương tiện di chuyển trái với các định luật vật lí.
-    - **Vô hiệu hóa các tín hiệu gây nhiễu bằng cách sử dụng các anten phù hợp:** Bằng cách sử dụng nhiều phần tử ăng-ten đặt cách nhau một khoảng đã biết, các kỹ thuật xử lý tín hiệu có thể được sử dụng để phân biệt hướng mà tín hiệu gây nhiễu đến và sau đó hướng các sóng mục đích vô hiệu hóa về phía nguồn gây nhiễu giúp bảo vệ máy thu.
-  - ***Đối với giả sóng:***
+
+- **Bộ lọc nằm ở trong bộ thu:** chính là phòng tuyến đầu tiên khi tín hiệu đến được máy thu, lọc được càng nhiều nhiễu càng tốt. Điều này khá là hiệu quả đối với những tín hiệu nằm ngoài dải băng tần, hoặc chính là những tín hiệu không nằm trong các tần số GNSS mà ta quan tâm. Tuy nhiên, đối với tín hiệu nhiệu nằm trong dải băng tần thì nó vẫn có thể lấn át bộ thu.
+
+- **Hỗ trợ bộ thu với IMU:** IMU thì sẽ không bị nhiễu bởi các tín hiệu vô tuyến. Nó cung cấp các giải pháp điều hướng thực tế tránh việc phương tiện di chuyển trái với các định luật vật lí.
+
+- **Vô hiệu hóa các tín hiệu gây nhiễu bằng cách sử dụng các anten phù hợp:** Bằng cách sử dụng nhiều phần tử ăng-ten đặt cách nhau một khoảng đã biết, các kỹ thuật xử lý tín hiệu có thể được sử dụng để phân biệt hướng mà tín hiệu gây nhiễu đến và sau đó hướng các sóng mục đích vô hiệu hóa về phía nguồn gây nhiễu giúp bảo vệ máy thu.
+
+- ***Đối với giả sóng:***
     - Cách tốt nhất để đối phó với giả sóng đó là sử dụng các đoạn code giải mã. Bộ thu chỉ có thể lấy được thông tin khi và chỉ khi được giải mã. Tuy nhiên nó chỉ được dùng bởi chính phủ hoặc quân đội.
     - Đối với dân dụng, ta có thể sử dụng bộ thu có thể nhận được tín hiệu từ nhiều vệ tinh như GPS, GLONASS,...khá là hiệu quả để chống lại giả sóng bởi vì kẻ chủ mưu cần phải tạo ra và phát đồng thời nhiều tín hiệu GNSS mới có thể đánh lừa được bộ thu.
     - Một cách khác nữa đó là sử dụng IMU, bởi vì kẻ xấu sẽ không làm giả được trọng trường hoặc động lực học của phương tiện, đồng thời IMU cũng không bị ảnh hưởng bởi sóng vô tuyến nên chúng sẽ nhận biết được chuyển động vô lý trong quá trình giả sóng.
