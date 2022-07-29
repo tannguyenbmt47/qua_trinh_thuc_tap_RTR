@@ -69,13 +69,15 @@
 <br>
   - ***Gây nhiễu (Jamming):***
     - Xảy ra khi mà một thiết bị phát ra sóng vô tuyến cùng tần số với sóng của GNSS. Điều này khiến cho các thiết bị sử dụng GNSS không thể xác định được vị trí và ngăn cản chúng khỏi việc thiết lập hay duy trì kết nối.
-    ![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHFRhQtqfSJVlsa7eUU5VBM2_YzZJ2KH9eontFMIkPgxxr7tpOjjei9d30qpSd7MUYV_Q&usqp=CAU)
+
+![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHFRhQtqfSJVlsa7eUU5VBM2_YzZJ2KH9eontFMIkPgxxr7tpOjjei9d30qpSd7MUYV_Q&usqp=CAU)
 <br>
   - ***Giả sóng (Spoofing):***
     -  là một hình thức tấn công nguy hiểm hơn, bao gồm việc cố tình bắt chước hình thức truyền từ vệ tinh GPS, lừa người nhận tin rằng thông tin đã được gửi như mong đợi. 
        -  Giả sóng dạng cơ bản nhất đó là việc gửi thông tin hoàn toàn sai lệch tới bộ thu (ví dụ như nó cho biết vị trí con tàu đang chạy ở trên đất liền). Thông thường việc làm giả này chỉ nhắm tới mục tiêu hơn là làm nhiễu một môi trường lớn xung quanh
        -  Một hình thức giả mạo GPS thậm chí còn phức tạp và tinh vi hơn, liên quan đến việc chiếm quyền điều khiển hệ thống GPS bằng cách ban đầu gửi cho bộ thu thông tin vị trí chính xác và sau đó thay đổi rất chậm các thông tin được gửi về, chẳng hạn, kéo tàu đi chệch hướng vào vùng biển thù địch.
-      ![alt text](https://www.researchgate.net/profile/Vinay-Chamola/publication/353212475/figure/fig3/AS:1045064184774656@1626174126142/GPS-spoofing-attack-on-GPS-Enabled-Drone-36.ppm)
+
+![alt text](https://www.researchgate.net/profile/Vinay-Chamola/publication/353212475/figure/fig3/AS:1045064184774656@1626174126142/GPS-spoofing-attack-on-GPS-Enabled-Drone-36.ppm)
 <br>
 #### Các phương pháp chống phá sóng và giả sóng của một số bộ thu GNSS
   - ***Đối với phá sóng (nhiễu sóng):***
