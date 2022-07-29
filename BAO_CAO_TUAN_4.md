@@ -37,12 +37,14 @@
 ![alt text](https://talks.navixy.com/wp-content/uploads/2020/06/gps_system_how_it_works1.png)
 <br>
 - **Hiệu suất làm việc của các hệ thống vệ tinh được đánh giá trên các tiêu chí:**
+
   - *Độ chính xác:* Đánh giá bằng sai số giữa kết quả đo được của máy thu và vị trí thực sự của nó, tốc độ hoặc thời gian đo.
   - *Tính toàn vẹn:* Khả năng của hệ thống để cung cấp ngưỡng tin cậy và, trong trường hợp có sự bất thường trong dữ liệu định vị.
   - *Tính liên tục:* Một hệ thống có khả năng hoạt động mà không bị gián đoạn
   - *Tính khả dụng:* Phần trăm thời gian tín hiệu đáp ứng các tiêu chí chính xác, toàn vẹn và liên tục ở trên.
 <br>
 - Hiện nay có 5 loại hệ thống vệ tinh đang được hoạt động ngoài không gian và truyền tín hiệu đến các bộ thu ở trên trái đất như:
+
   - GPS của Mỹ
   - Galileo của liên minh châu Âu.
   - Glonass của Nga
