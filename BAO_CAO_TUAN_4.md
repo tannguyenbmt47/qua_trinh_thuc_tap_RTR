@@ -36,6 +36,7 @@
       - **Chú ý:** Máy thu GNSS sẽ nhận tín hiệu, tính toán được chính xác vị trí của mình khi nhận được tín hiệu của ít nhất 3 vệ tinh.
 ![alt text](https://talks.navixy.com/wp-content/uploads/2020/06/gps_system_how_it_works1.png)
 <br>
+
 - **Hiệu suất làm việc của các hệ thống vệ tinh được đánh giá trên các tiêu chí:**
 
   - *Độ chính xác:* Đánh giá bằng sai số giữa kết quả đo được của máy thu và vị trí thực sự của nó, tốc độ hoặc thời gian đo.
@@ -63,12 +64,15 @@
 <br>
 
 #### Phá sóng và giả sóng GNSS
+
 - **Mất tín hiệu GNSS**
     - Khi mất tín hiệu GNSS thì bộ thu sẽ sử dụng nguồn thời gian dự phòng từ bộ dao động được tích hợp trong thiết bị. Điều này cho phép một tín hiệu thời gian vẫn được tạo ra trong khi không có tín hiệu GNSS nào đến. Tuy nhiên, phương pháp duy trì tín hiệu thời gian này không đáng tin cậy vì bộ dao động được sử dụng cho tín hiệu thời gian chính càng lâu thì sự suy giảm độ chính xác của tín hiệu càng lớn. Điều này có nghĩa là tùy thuộc vào bộ dao động, tín hiệu có thể duy trì chính xác trong tối đa một tuần, nhưng nhiều khả năng chỉ vài giờ tùy thuộc vào trường hợp sử dụng.
 <br>
+
 - **Các phương pháp làm mất tín hiệu GNSS**
   - Vào thời điểm tín hiệu GNSS đến bề mặt Trái đất, chúng sẽ bị suy yếu và dễ bị năng lượng tần số vô tuyến (RF) công suất cao hơn chèn lên. Ngay cả một thiết bị gây nhiễu khoảng 10 Watt cũng có thể làm cho thiết bị thu GPS cách đó 30km không nhận được tín hiệu.
 <br>
+
   - ***Gây nhiễu (Jamming):***
     - Xảy ra khi mà một thiết bị phát ra sóng vô tuyến cùng tần số với sóng của GNSS. Điều này khiến cho các thiết bị sử dụng GNSS không thể xác định được vị trí và ngăn cản chúng khỏi việc thiết lập hay duy trì kết nối.
 
