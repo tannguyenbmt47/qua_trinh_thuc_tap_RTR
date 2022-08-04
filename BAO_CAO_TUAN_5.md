@@ -6,9 +6,10 @@
 #### Tóm tắt về bộ điều khiển PID sử dụng cho Drone
 - **Lưu ý:** Chỉ sử dụng cho hệ SISO
 - Là phần Flight Controller software đọc dữ liệu thu về từ cảm biến và tính toán tốc độ quay của động cơ để **điều chỉnh sai số thấp nhất có thể, tăng tốc độ đáp ứng, giảm độ vọt lố, hạn chế sự dao động.** 
+
 <div align='center'>
 <img src = 'http://i.imgur.com/JCM1g72.gif'>
-
+<br>
 *Drone khi di chuyển xong vẫn giữ mức ổn định nằm ngang như mong muốn* 
 </div>
 
